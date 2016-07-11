@@ -1,6 +1,7 @@
 package when_how.hero.service.impl;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ import when_how.hero.common.json.MyLoginSuccessResponse;
 import when_how.hero.common.json.MyResponse;
 import when_how.hero.constants.MyErrorNo;
 import when_how.hero.constants.RedisKey;
+import when_how.hero.dao.entity.UserDeck;
 import when_how.hero.dao.mapper.TestMapper;
 import when_how.hero.dao.mapper.UserDeckMapper;
 import when_how.hero.dto.BattleInitData;
@@ -60,7 +62,7 @@ public class LoginServiceImpl implements LoginService {
 		// testMapper.test();
 		// log.debug("第二次：" + (System.currentTimeMillis() - start));
 
-		// List<UserDeck> rr = userDeckMapper.getUserDeck(1);
+		 List<UserDeck> rr = userDeckMapper.getUserDeck(1);
 		// rr.get(0).setDeckName("haha2");
 		// userDeckMapper.updateUserDeck(rr.get(0));
 

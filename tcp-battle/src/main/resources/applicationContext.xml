@@ -43,4 +43,5 @@
 	<import resource="spring-mybatis.xml" />
 	<import resource="spring-quartz.xml" />
 	<import resource="spring-redis.xml" />
+	<import resource="spring-data.xml" />
 </beans> 

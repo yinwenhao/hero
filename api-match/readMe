@@ -1,0 +1,2 @@
+eclipse启动时，在Maven Build的Goals中填：
+jetty:run -Djetty.port=8888 -DconfPath=/Users/yinwenhao/workspace/hero/api-match/conf
