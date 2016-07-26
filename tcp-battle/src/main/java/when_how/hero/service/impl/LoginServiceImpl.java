@@ -55,14 +55,14 @@ public class LoginServiceImpl implements LoginService {
 		// }catch (Exception e) {
 		// log.error("test error!!!!!!!", e);
 		// }
-		// long start = System.currentTimeMillis();
-		// testMapper.test();
-		// log.debug("第一次：" + (System.currentTimeMillis() - start));
-		// start = System.currentTimeMillis();
-		// testMapper.test();
-		// log.debug("第二次：" + (System.currentTimeMillis() - start));
+		 long start = System.currentTimeMillis();
+		 testMapper.test();
+		 log.debug("第一次：" + (System.currentTimeMillis() - start));
+		 start = System.currentTimeMillis();
+		 testMapper.test();
+		 log.debug("第二次：" + (System.currentTimeMillis() - start));
 
-		 List<UserDeck> rr = userDeckMapper.getUserDeck(1);
+//		 List<UserDeck> rr = userDeckMapper.getUserDeck(1);
 		// rr.get(0).setDeckName("haha2");
 		// userDeckMapper.updateUserDeck(rr.get(0));
 

@@ -19,7 +19,7 @@
 		DataManager<?>> dataManagerMap, MessageSender messageSender -->
 	<!-- <import resource="spring-dataTransfer.xml" /> -->
 	<bean id="dataTransfer"
-		class="com.when_how.datatransfer.dataproducer.DataProducerListener">
+		class="com.ahei.datatransfer.dataproducer.DataProducerListener">
 		<constructor-arg index="0" value="10.128.8.57:2181" /><!-- zk -->
 		<constructor-arg index="1" value="tcp-battle-group" /><!-- group -->
 		<constructor-arg index="2" value="lang" /><!-- topic -->

@@ -14,8 +14,8 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.when_how.datatransfer</groupId>
-			<artifactId>data-transfer</artifactId>
+			<groupId>com.ahei.datatransfer</groupId>
+			<artifactId>ahei-datatransfer</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 
@@ -159,7 +159,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${org.springframework.version}</version>
-			<scope>runtime</scope>
 			<exclusions>
 				<exclusion>
 					<artifactId>commons-logging</artifactId>
